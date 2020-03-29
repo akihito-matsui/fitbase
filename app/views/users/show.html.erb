@@ -1,0 +1,29 @@
+<div class="row">
+  <aside class="ml-0 col-sm-4">
+
+    <img class="rounded img-flid ml-0 col-sm-12" src="<%= @user.profile_picture %>" alt="">
+  <div class="col-sm-12 text-break border m-2 p-2">
+    <div class="small">氏名：<%= @user.name %></div>
+    <div class="small">性別：<%= @user.gender %></div>
+    <div class="small">年齢：<%= @user.age %></div>
+    <div class="small">居住地：<%= @user.resident %></div>
+    <div class="small">出身地：<%= @user.birthplace %></div>
+    <div class="small">トレーニング場所：<%= @user.training_place %></div>
+    <div class="small">トレーニング頻度：<%= @user.frequency %></div>
+    <div class="small">トレーニングのきっかけ・目的：<%= @user.objective %></div>
+    <div class="small">利用しているプロテイン・サプリメント：<%= @user.protein_supplement %></div>
+    <div class="small">トレーニング中に聞く曲：<%= @user.music %></div>
+    <div class="small">つらいときの掛け声：<%= @user.speakout %></div>
+    <div class="small">Fitbaseのみんなに一言：<%= @user.message %></div>
+  </div>
+  </aside>
+  <div class="col-sm-8">
+    <ul class="nav nav-tabs nav-justified mb-3">
+      <li class="nav-item"><a href="#" class="nav-link">レコード</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Followings</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">フォロー中</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">フォロワー</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">ユーザ検索</a></li>
+    </ul>
+  </div>
+</div>
