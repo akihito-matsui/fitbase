@@ -61,3 +61,7 @@ gem 'carrierwave', '~> 2.0'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 
 gem 'pry-rails'
+
+group :production do
+  gem 'pg', '>= 0.18', '< 2.0'
+end
